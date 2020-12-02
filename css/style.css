@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+}
+/*h1
+{
+	margin: 0;
+}*/
+
+header {
+    background: linear-gradient(45deg, black, transparent), url(../img/bg.jpg);
+    height: 100vh;
+}
+header nav {
+    line-height: 90px;
+   /* position: fixed;
+    width: 100%;*/
+}
+nav img {
+    width: 167px;
+    height: 45px;
+    vertical-align: middle;
+    margin-left: 3%;
+}
+.signin {
+    float: right;
+    margin: 20px 3%;
+    background-color: #E50914;
+    height: 33px;
+    width: 87px;
+    border: yellow;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.pitch {
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+}
+.pitch .pitchTitle {
+    font-size: 3em;
+    margin: 0 0 0 8px;
+    font-weight: 900;
+}
+.pitch .pitchSubtitle {
+    margin: 0 0 0 16px;
+}
+.pitch .btn {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    margin: 15px 10px 10px 18px;
+    padding: 14px 2em;
+    background-color: #e50913;
+    /* border: none; */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 54%;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+}
+.pitch .btn:hover {
+    background-color: #f40008;
+}
+#features>nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3e3e3e;
+}
+#features>nav a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 24px;
+    vertical-align: top;
+    height: 177px;
+    color: #777;
+    font-weight: bold;
+}
+#features>nav a:hover {
+    color: white;
+}
+#features>nav img {
+    height: 49px;
+    width: 49px;
+}
+#features>nav a h1 {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+.columns {
+    display: flex;
+}
+.center {
+    margin: 0 auto;
+}
+.size-80 {
+    width: 80%;
+}
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
