@@ -8,7 +8,7 @@ body {
   font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
   color: white;
   font-size: 16px;
-  background-color: black;
+  background-color: #222222;
 }
 /*h1
 {
@@ -59,6 +59,7 @@ nav img {
   font-weight: 900;
   text-align: center;
   width: 50%;
+  /* border: none; */
 }
 .pitch .pitchSubtitle {
   /* margin: 0 0 0 16px;
@@ -137,7 +138,7 @@ nav img {
   justify-items: center;
   justify-content: center;
 }
-.signup button {
+.signup .singbtn {
   width: 256px;
   height: 60px;
   border-radius: 0px;
@@ -194,4 +195,67 @@ nav img {
   color: white;
   font-size: 20px;
   margin-top: 16px;
+}
+.emialForm {
+  display: flex;
+}
+.emialForm .em {
+  border: none;
+}
+.watchonTv {
+  display: flex;
+}
+.watchonTv .leftSideTv {
+  margin: auto;
+  padding: 64px;
+}
+.WatchOnTvContainer {
+  background-color: black;
+  margin-top: 10px;
+}
+.leftSideTv h1 {
+  font-size: 51px;
+  padding-left: 13px;
+  margin-bottom: 0px;
+}
+.leftSideTv p {
+  font-size: 26px;
+  font-weight: inherit;
+  padding-left: 13px;
+  margin-top: 29px;
+}
+
+.rightSideTv img {
+  height: 397px;
+  width: 530px;
+}
+.rightSideTv {
+  padding-right: 60px;
+  margin-bottom: 35px;
+}
+.dowloadshow {
+  display: flex;
+}
+.leftshow img {
+  height: 378px;
+  width: 504px;
+}
+.DownloadshowContainer {
+  margin: 10px auto 0;
+  background-color: black;
+}
+.rightshow {
+  margin: auto;
+  padding: 0 141px 0 64px;
+  margin-left: 44px;
+}
+.rightshow h1 {
+  font-size: 51px;
+  margin-bottom: 0;
+}
+.rightshow p {
+  font-size: 26px;
+}
+.leftshow {
+  margin-left: 33px;
 }
