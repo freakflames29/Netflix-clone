@@ -232,9 +232,14 @@ nav img {
 .dowloadshow {
     display: flex;
 }
+.leftshow 
+{
+   position: relative;
+}
 .leftshow img {
     height: 378px;
     width: 504px;
+
 }
 .DownloadshowContainer {
     margin: 10px auto 0;
@@ -327,4 +332,62 @@ nav img {
 .error
 {
   margin-left: 182px
+}
+
+.DownloadingStranger
+{
+  background-color: black;
+  height: 20%;
+  width: 50%;
+  /*padding: 10px*/
+  display: flex;
+  /*position:relative;*/
+  position: absolute;
+top: 67%;
+left: 24%;
+
+
+
+border-radius: 7px;
+border: black;
+border-width: 1px solid blue;
+border: 3px solid #222;
+}
+.DownloadingStranger .imageStranger img
+{
+  height: 57px;
+  width:41px;
+
+}
+.imageStranger
+{
+  margin-bottom: 34px
+  margin-left: 27px;
+}
+.strangerRight strong
+{
+  margin-left: 16px;
+margin-bottom: 0;
+}
+.strangerRight p
+{
+  margin: 0 0 0 17px;
+  color: #004999;
+}
+.strangerRight
+{
+      margin-top: 14px;
+}
+.imageStranger img
+{
+  margin: 7px 0px 10px 10px;
+}
+.strangerRight img
+{
+      height: 23px;
+    width: 23px;
+    float: right;
+    position: absolute;
+    top: 32%;
+    right: 20px;
 }
