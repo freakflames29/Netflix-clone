@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-            <meta content="width=device-width, initial-scale=1.0" name="viewport">
-                <title>
-                    Netflix
-                </title>
-                <link href="css/style.css" rel="stylesheet">
-                </link>
-            </meta>
-        </meta>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a class="logo" href="#">
-                    <img alt="Logo" src="../img/logo.svg">
-                    </img>
-                </a>
-                <a href="https://netflix.com">
-                    <button class="signin">
-                        Sign in
-                    </button>
-                </a>
-            </nav>
-            <!-- <h1>Welcome in Netflix</h1> -->
-            <section class="pitch">
-                <h1 class="pitchTitle">
-                    Unlimited movies, TV shows and more.
-                </h1>
-                <p class="pitchSubtitle">
-                    Watch anywhere,Cancel anytime
-                </p>
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>Netflix</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a class="logo" href="#">
+					<img alt="Logo" src="./img/logo.svg" />
+				</a>
+				<a href="https://netflix.com">
+					<button class="signin">Sign in</button>
+				</a>
+			</nav>
+			<!-- <h1>Welcome in Netflix</h1> -->
+			<section class="pitch">
+				<h1 class="pitchTitle">Unlimited movies, TV shows and more.</h1>
+				<p class="pitchSubtitle">Watch anywhere,Cancel anytime</p>
 
-                <p class="littlesub">
-                    Ready to watch? Enter your email to create or restart your membership.
-                </p>
+				<p class="littlesub">
+					Ready to watch? Enter your email to create or restart your
+					membership.
+				</p>
 
-                <!-- <button class="btn">
+				<!-- <button class="btn">
                     Start your free trial
                 </button> -->
-                <div class="signup">
-                    <form action="#">
-                        <input type="email" id="emai" placeholder="Email">
-                        <button type="submit">GET STARTED ></button>
-                    </form>
-                </div>
-
-
-            </section>
-        </header>
-        <!-- <div id="features">
+				<div class="signup">
+					<form action="#" class="membership__form">
+						<input type="email" id="email" placeholder="Email" />
+						<button type="submit">GET STARTED ></button>
+					</form>
+				</div>
+			</section>
+		</header>
+		<!-- <div id="features">
             <nav>
                 <div class="center columns size-80">
                     <a href="#" class="column">
@@ -80,24 +68,80 @@
             </nav>
         </div> -->
 
-        <div class="streamFestContainer">
-            <div class="streamfest">
-                <div class="leftSide">  
-                    <img src="img/strf.png" alt="ss">
-                </div>
-              
-                <div class="rightside">
-                    <h1>Netflix StreamFest</h1>
-                    <p>Watch unlimited. All for free.</p>
-                    <button>LEARN MORE ></button>
-                </div>
-            </div>
+		<div class="streamFestContainer">
+			<div class="streamfest">
+				<div class="leftSide">
+					<img src="img/strf.png" alt="ss" />
+				</div>
 
-        </div>
+				<div class="rightside">
+					<h1>Netflix StreamFest</h1>
+					<p>Watch unlimited. All for free.</p>
+					<button>LEARN MORE ></button>
+				</div>
+			</div>
+		</div>
 
+		<hr/>
+		<!-- footer -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<div id="footer__space"></div>
 
-      <script src="js/app.js"></script>
-    </body>
+		<div class="footer">
+			<div class="footer__column">
+				<div class="foo__row__1">Questions? Call 000-800-040-1843</div>
+				<div class="foo__row__2">
+					<div class="foo__col__4">
+						<div class="row__1">
+							<a href="https://help.netflix.com/en/node/412"
+								>FAQ</a
+							>
+						</div>
+						<div class="row__1">
+							<a href="http://ir.netflix.com/"
+								>Investor Relations</a
+							>
+						</div>
+						<div class="row__1">
+							<a href="https://help.netflix.com/legal/privacy"
+								>Privacy</a
+							>
+						</div>
+						<div class="row__1">
+							<a href="https://fast.com/">Speed Test</a>
+						</div>
+					</div>
+					<div class="foo__col__4">
+						<div class="row__1">Help Center</div>
+						<div class="row__1">Jobs</div>
+						<div class="row__1">Cookie Preferences</div>
+						<div class="row__1">Legal Notices</div>
+					</div>
+					<div class="foo__col__4">
+						<div class="row__1">Account</div>
+						<div class="row__1">Ways to Watch</div>
+						<div class="row__1">Corporate Information</div>
+						<div class="row__1">Netflix Originals</div>
+					</div>
+					<div class="foo__col__4">
+						<div class="row__1">Media Centre</div>
+						<div class="row__1">Terms of Use</div>
+						<div class="row__1">Contact Us</div>
+					</div>
+				</div>
+				<div class="foo__row__3">
+					<select name="Language" id="language">
+						<option value="English">English</option>
+						<option value="English">Hindi</option>
+					</select>
+					<!-- ::after -->
+				</div>
+				<div class="foo__row__4">Netflix India</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="js/app.js"></script>
+	</body>
 </html>
