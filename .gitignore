@@ -1,0 +1,9 @@
+# *.jpg
+# *.png
+# *gif
+# .gitignore
+*.eot
+# *.svg
+*.ttf
+*.woff
+*.woff2

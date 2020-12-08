@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="fac.css">
+</head>
+<body>
+    <div class="accordion">
+        <!-- 1 -->
+        <div class="contentBox">
+            <div class="label">List one</div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt odit iste aspernatur necessitatibus eaque, tempore vero repellendus fugit, quos eos obcaecati repellat a recusandae soluta. Adipisci temporibus modi autem.
+                </p>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="contentBox">
+            <div class="label">List two</div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt odit iste aspernatur necessitatibus eaque, tempore vero repellendus fugit, quos eos obcaecati repellat a recusandae soluta. Adipisci temporibus modi autem.
+                </p>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="contentBox">
+            <div class="label">List Three</div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nesciunt odit iste aspernatur necessitatibus eaque, tempore vero repellendus fugit, quos eos obcaecati repellat a recusandae soluta. Adipisci temporibus modi autem.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const accordion=document.getElementsByClassName("contentBox");
+        for(i=0;i<accordion.length;i++)
+        {
+            accordion[i].addEventListener("click",function ()
+            {
+                this.classList.toggle("active");
+                
+            })
+        }
+
+    </script>
+</body>
+</html>
