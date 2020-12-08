@@ -147,7 +147,8 @@ nav img {
     color: wheat;
     font-size: 20px;
 }
-.signup #emai {
+/* .signup #emai  */
+.signup .em{
     width: 608px;
     height: 60px;
     border-radius: 0px;
@@ -273,6 +274,7 @@ nav img {
     justify-content: center;
     min-height: 100vh;
     background-color: black;
+    flex-direction: column;
 }
 .accordian {
     max-width: 800px;
@@ -464,4 +466,39 @@ select::after
 #callmeonphone:hover
 {
     text-decoration: underline;
+}
+.faqDiv #emai
+{
+    width: 492px;
+}
+.faqDiv .singbtn
+{
+    width: 218px;
+}
+.faqDiv .littlesub
+{
+    margin: 62px 0 15px 0;
+font-size: 18px;
+}
+.faqDiv .signup
+{
+    position: relative;
+    margin-bottom: 100px;
+}
+.faqDiv .error
+{
+    
+    position: absolute;
+    top: 107%;
+    /* right: 20px; */
+    left: -174px;
+    margin-top: 10px;
+
+}
+
+#error2
+{
+    color: #E08F0F;
+
+    font-size: 16px;
 }
