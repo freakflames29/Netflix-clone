@@ -8,6 +8,7 @@ html, body {
     color: white;
     font-size: 16px;
     background-color: #222222;
+    height: 100%;
 }
 /*h1
 {
@@ -381,4 +382,76 @@ nav img {
 .rightside button:hover {
     background-color: #ff050d;
     cursor: pointer;
+}
+.MainContentContainer
+{
+    min-height: 100vh;
+}
+.footerContainer
+{
+    height: 500px;
+    background-color: black;
+    padding: 20px;
+}
+.mainFooter
+{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 39px;
+margin-left: 75px;
+margin-right: 86px;
+}
+.firstConatiner li
+{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.footerit .call
+{
+    margin-left: 200px;
+margin-top: 100px;
+}
+.firstConatiner a{
+    color:#747474;
+    text-decoration: none;
+    /* font-size: 14px; */
+}
+.firstConatiner a:hover
+{
+    text-decoration: underline;
+}
+.lastsec
+{
+    margin-left: 202px;
+margin-top: 26px;
+}
+
+select
+{
+position: relative;
+margin-left: 199px;
+margin-top: 50px;
+/* padding: 11px; */
+width: 115px;
+height: 55px;
+font-size: 17px;
+/* background-color: ; */
+background: none;
+border: 1px solid white;
+appearance:none;
+color: white;
+/* -webkit-appearance: button;
+-moz-appearance:button; */
+}
+select::after
+{
+    content: "ds";
+}
+.footerDiv
+{
+    margin-top: 10px;
+}
+.footerDiv p
+{
+    color: #747474;
 }
