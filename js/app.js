@@ -20,17 +20,17 @@ function kk()
 	if(a.match(pattern))
 	{
 		// alert("failed");
-		error.innerText="Valid Email";
+		error.innerText="";
 	}
 	else
 	{
-		error.innerText="Please enter a valid email";
+		error.innerText="Please enter a valid email address.";
 		// alert("succse");
 
 	}
 	if(a=="")
 	{
-		error.innerText="Please enter an email";
+		error.innerText="Email is required.";
 
 	}
 }
@@ -42,18 +42,18 @@ function bb()
 	if(b.match(patterne))
 	{
 		// alert("failed");
-		error2.innerText="Valid Email";
+		error2.innerText="";
 		// erro2.style.color="green";
 	}
 	else
 	{
-		error2.innerText="Please enter a valid email";
+		error2.innerText="Please enter a valid email address.";
 		// alert("succse");
 
 	}
 	if(b=="")
 	{
-		error2.innerText="Please enter an email";
+		error2.innerText="Email is required.";
 
 	}
 }
