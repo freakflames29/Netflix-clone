@@ -13,4 +13,4 @@ link:-https://souravnetflixclone.netlify.app/
 ![alt text](https://github.com/freakflames29/Netflix-clone/blob/master/screenshot.png)
 
 # Join This project
-if you want to develop this thing further, you can just fork the repo and start developing :)
+if you want to develop this thing further, you can, just fork the repo and start developing :)
