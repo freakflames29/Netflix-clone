@@ -2,8 +2,8 @@
 # *.png
 # *gif
 # .gitignore
-*.eot
+#*.eot
 # *.svg
-*.ttf
-*.woff
-*.woff2
+#*.ttf
+#*.woff
+#*.woff2
